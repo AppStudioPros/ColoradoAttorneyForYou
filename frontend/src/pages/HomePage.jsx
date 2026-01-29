@@ -386,7 +386,7 @@ const HomePage = () => {
               {
                 step: 2,
                 title: 'Clear Agreement',
-                desc: 'If we move forward, you'll know exactly what's included, what it costs, and what to expect. No surprise fees.',
+                desc: 'If we move forward, you will know exactly what is included, what it costs, and what to expect. No surprise fees.',
               },
               {
                 step: 3,
