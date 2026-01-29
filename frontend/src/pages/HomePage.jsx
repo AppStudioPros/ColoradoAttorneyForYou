@@ -391,7 +391,7 @@ const HomePage = () => {
               {
                 step: 3,
                 title: 'Personal Representation',
-                desc: 'Warren handles your case directly. You'll always know who you're working with and what's happening next.',
+                desc: 'Warren handles your case directly. You will always know who you are working with and what is happening next.',
               },
             ].map((item) => (
               <div
