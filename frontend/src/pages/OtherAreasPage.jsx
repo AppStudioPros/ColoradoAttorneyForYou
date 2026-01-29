@@ -377,7 +377,7 @@ const OtherAreasPage = () => {
               {
                 step: 2,
                 title: 'Clear Fee Agreement',
-                desc: 'If representation makes sense, Warren explains what's included, what it costs, and what to expect. No hidden fees or surprises.',
+                desc: 'If representation makes sense, Warren explains what is included, what it costs, and what to expect. No hidden fees or surprises.',
               },
               {
                 step: 3,
