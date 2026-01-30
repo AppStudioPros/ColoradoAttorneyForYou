@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { Button } from '../components/ui/button';
 import { Card } from '../components/ui/card';
 import { ContactForm } from '../components/ContactForm';
-import { Heart, Shield, Scale, FileText } from 'lucide-react';
+import LawIcon from '../components/LawIcon';
 
 const OtherAreasPage = () => {
   useEffect(() => {
@@ -151,7 +151,7 @@ const OtherAreasPage = () => {
           <div className="grid grid-cols-1 min-[900px]:grid-cols-[1.25fr_1fr] gap-8 md:gap-12">
             <div className="animate-on-scroll" style={{ opacity: 0 }}>
               <div className="flex items-center gap-3 mb-4">
-                <Heart className="w-8 h-8 text-[#1ea6a3]" />
+                <LawIcon name="handshake" size={40} />
                 <h2 className="text-3xl md:text-4xl font-bold text-[#13263b]">Family Law</h2>
               </div>
               <p className="text-base text-[#6b7280] mb-6">
@@ -231,7 +231,7 @@ const OtherAreasPage = () => {
           <div className="grid grid-cols-1 min-[900px]:grid-cols-[1.25fr_1fr] gap-8 md:gap-12">
             <div className="animate-on-scroll" style={{ opacity: 0 }}>
               <div className="flex items-center gap-3 mb-4">
-                <Shield className="w-8 h-8 text-[#1ea6a3]" />
+                <LawIcon name="handcuffs" size={40} />
                 <h2 className="text-3xl md:text-4xl font-bold text-[#13263b]">Criminal Defense</h2>
               </div>
               <p className="text-base text-[#6b7280] mb-6">
@@ -309,7 +309,7 @@ const OtherAreasPage = () => {
         <div className="mx-auto w-full px-4 sm:px-6 lg:px-8 max-w-[1000px]">
           <div className="text-center mb-10 animate-on-scroll" style={{ opacity: 0 }}>
             <div className="flex items-center justify-center gap-3 mb-4">
-              <Scale className="w-8 h-8 text-[#1ea6a3]" />
+              <LawIcon name="pillars" size={40} />
               <h2 className="text-3xl md:text-4xl font-bold text-[#13263b]">Appeals</h2>
             </div>
             <p className="text-base text-[#6b7280] max-w-2xl mx-auto">
@@ -320,7 +320,7 @@ const OtherAreasPage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 animate-on-scroll" style={{ opacity: 0 }}>
             <Card className="rounded-[18px] bg-white border border-[#e6edf5] shadow-[0_10px_30px_rgba(19,38,59,0.08)] hover:shadow-[0_14px_36px_rgba(19,38,59,0.12)] transition-shadow p-6">
-              <FileText className="w-7 h-7 text-[#1ea6a3] mb-3" />
+              <LawIcon name="judge" size={36} className="mb-3" />
               <h3 className="text-lg font-semibold text-[#13263b] mb-2">Criminal Appeals</h3>
               <p className="text-[0.95rem] text-[#6b7280]">
                 Challenging convictions based on legal errors, procedural violations, or ineffective
@@ -329,7 +329,7 @@ const OtherAreasPage = () => {
             </Card>
 
             <Card className="rounded-[18px] bg-white border border-[#e6edf5] shadow-[0_10px_30px_rgba(19,38,59,0.08)] hover:shadow-[0_14px_36px_rgba(19,38,59,0.12)] transition-shadow p-6">
-              <Heart className="w-7 h-7 text-[#1ea6a3] mb-3" />
+              <LawIcon name="case" size={36} className="mb-3" />
               <h3 className="text-lg font-semibold text-[#13263b] mb-2">Family Law Appeals</h3>
               <p className="text-[0.95rem] text-[#6b7280]">
                 Appealing custody decisions, support orders, property division, and other family law
@@ -338,7 +338,7 @@ const OtherAreasPage = () => {
             </Card>
 
             <Card className="rounded-[18px] bg-white border border-[#e6edf5] shadow-[0_10px_30px_rgba(19,38,59,0.08)] hover:shadow-[0_14px_36px_rgba(19,38,59,0.12)] transition-shadow p-6">
-              <Shield className="w-7 h-7 text-[#1ea6a3] mb-3" />
+              <LawIcon name="law" size={36} className="mb-3" />
               <h3 className="text-lg font-semibold text-[#13263b] mb-2">Protection Order Appeals</h3>
               <p className="text-[0.95rem] text-[#6b7280]">
                 Challenging the issuance of protection orders or other restraining orders.
