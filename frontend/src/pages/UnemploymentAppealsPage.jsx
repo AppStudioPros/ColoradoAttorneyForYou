@@ -9,7 +9,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '../components/ui/accordion';
-import { AlertCircle, Clock, FileText, Users } from 'lucide-react';
+import { AlertCircle } from 'lucide-react';
+import LawIcon from '../components/LawIcon';
 
 const UnemploymentAppealsPage = () => {
   useEffect(() => {
@@ -245,7 +246,7 @@ const UnemploymentAppealsPage = () => {
             style={{ opacity: 0 }}
           >
             <div className="flex items-start gap-3">
-              <Clock className="w-6 h-6 text-[#1ea6a3] flex-shrink-0 mt-1" />
+              <LawIcon name="courthouse" size={28} className="flex-shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-[#1e3a5c] mb-2">
                   Short deadlines
@@ -258,7 +259,7 @@ const UnemploymentAppealsPage = () => {
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <FileText className="w-6 h-6 text-[#1ea6a3] flex-shrink-0 mt-1" />
+              <LawIcon name="contract" size={28} className="flex-shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-[#1e3a5c] mb-2">
                   Keep filing weekly
@@ -271,7 +272,7 @@ const UnemploymentAppealsPage = () => {
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <Users className="w-6 h-6 text-[#1ea6a3] flex-shrink-0 mt-1" />
+              <LawIcon name="lawyer" size={28} className="flex-shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-[#1e3a5c] mb-2">
                   You don't have to do this alone
