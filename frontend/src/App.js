@@ -4,6 +4,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import { Toaster } from './components/ui/sonner';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import HomePage from './pages/HomePage';
 import UnemploymentAppealsPage from './pages/UnemploymentAppealsPage';
 import OtherAreasPage from './pages/OtherAreasPage';
@@ -13,6 +14,7 @@ function App() {
   return (
     <HelmetProvider>
       <Router>
+        <ScrollToTop />
         <div className="flex flex-col min-h-screen">
           <Header />
           <main className="flex-grow">
