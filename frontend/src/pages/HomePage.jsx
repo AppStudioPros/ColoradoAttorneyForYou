@@ -3,7 +3,8 @@ import { Helmet } from 'react-helmet-async';
 import { Button } from '../components/ui/button';
 import { Card } from '../components/ui/card';
 import { ContactForm } from '../components/ContactForm';
-import { CheckCircle, Scale, Users, FileText } from 'lucide-react';
+import { CheckCircle } from 'lucide-react';
+import LawIcon from '../components/LawIcon';
 
 const HomePage = () => {
   useEffect(() => {
@@ -254,7 +255,7 @@ const HomePage = () => {
               style={{ opacity: 0 }}
               data-testid="practice-card"
             >
-              <Scale className="w-8 h-8 text-[#1ea6a3] mb-4" />
+              <LawIcon name="balance" size={40} className="mb-4" />
               <h3 className="text-xl font-semibold text-[#13263b] mb-3">Unemployment Appeals</h3>
               <p className="text-[0.95rem] text-[#6b7280] mb-4">
                 Flat-fee representation for denied Colorado unemployment benefits. 20-day appeal deadline
@@ -270,7 +271,7 @@ const HomePage = () => {
               style={{ opacity: 0, animationDelay: '0.1s' }}
               data-testid="practice-card"
             >
-              <Users className="w-8 h-8 text-[#1ea6a3] mb-4" />
+              <LawIcon name="handshake" size={40} className="mb-4" />
               <h3 className="text-xl font-semibold text-[#13263b] mb-3">Family Law</h3>
               <p className="text-[0.95rem] text-[#6b7280] mb-4">
                 Divorce, custody, child support, modifications, and relocation. Uncontested and contested
@@ -286,7 +287,7 @@ const HomePage = () => {
               style={{ opacity: 0, animationDelay: '0.2s' }}
               data-testid="practice-card"
             >
-              <FileText className="w-8 h-8 text-[#1ea6a3] mb-4" />
+              <LawIcon name="gavel" size={40} className="mb-4" />
               <h3 className="text-xl font-semibold text-[#13263b] mb-3">Criminal Defense & Appeals</h3>
               <p className="text-[0.95rem] text-[#6b7280] mb-4">
                 DUI/DWAI defense, drug charges, criminal appeals. Protecting your rights from day one.
