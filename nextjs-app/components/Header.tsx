@@ -21,24 +21,14 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/70 border-b border-gray-200 shadow-sm">
       <div className="mx-auto w-full px-4 sm:px-6 lg:px-8 max-w-[1280px] h-[72px] flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3">
-          <div className="h-16 w-auto bg-primary rounded-lg p-2 relative">
-            <Image
-              src="/warren-logo-white.png"
-              alt="Law Office of Warren J. Domangue"
-              width={80}
-              height={60}
-              className="object-contain"
-            />
-          </div>
-          <div className="hidden md:flex flex-col">
-            <span className="text-primary text-sm font-semibold leading-tight">
-              Law Office of
-            </span>
-            <span className="text-primary text-sm font-semibold leading-tight">
-              Warren J. Domangue
-            </span>
-          </div>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/warren-logo-color.png"
+            alt="Domangue Law"
+            width={200}
+            height={60}
+            className="object-contain h-14 w-auto"
+          />
         </Link>
 
         {/* Desktop Navigation */}
