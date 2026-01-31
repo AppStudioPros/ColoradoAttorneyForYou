@@ -90,7 +90,7 @@ export default function UnemploymentAppealsPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 min-[900px]:grid-cols-3 gap-6">
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <LawIcon name="contract" size={40} className="mb-4" />
               <h3 className="text-xl font-semibold text-primary mb-3">1. File Your Appeal</h3>
               <p className="text-[0.95rem] text-muted">
@@ -99,7 +99,7 @@ export default function UnemploymentAppealsPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <LawIcon name="research" size={40} className="mb-4" />
               <h3 className="text-xl font-semibold text-primary mb-3">2. Prepare Your Case</h3>
               <p className="text-[0.95rem] text-muted">
@@ -108,7 +108,7 @@ export default function UnemploymentAppealsPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <LawIcon name="gavel" size={40} className="mb-4" />
               <h3 className="text-xl font-semibold text-primary mb-3">3. Hearing & Decision</h3>
               <p className="text-[0.95rem] text-muted">
@@ -136,7 +136,7 @@ export default function UnemploymentAppealsPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <h3 className="text-lg font-semibold text-primary mb-3">Misconduct / Discharge</h3>
               <p className="text-[0.95rem] text-muted mb-3">
                 Your employer claims you were fired for breaking company rules or policy. These cases
@@ -148,7 +148,7 @@ export default function UnemploymentAppealsPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <h3 className="text-lg font-semibold text-primary mb-3">Voluntary Quit</h3>
               <p className="text-[0.95rem] text-muted mb-3">
                 If you quit, Colorado law requires you to show you had "good cause" attributable to the
@@ -160,7 +160,7 @@ export default function UnemploymentAppealsPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <h3 className="text-lg font-semibold text-primary mb-3">Able & Available</h3>
               <p className="text-[0.95rem] text-muted mb-3">
                 Colorado requires you to be able to work, available for work, and actively seeking work.
@@ -172,7 +172,7 @@ export default function UnemploymentAppealsPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <h3 className="text-lg font-semibold text-primary mb-3">Overpayment Appeals</h3>
               <p className="text-[0.95rem] text-muted mb-3">
                 If the state says you were overpaid, you have the right to appeal. Warren reviews
@@ -201,7 +201,7 @@ export default function UnemploymentAppealsPage() {
           </div>
 
           <div className="space-y-6">
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <h3 className="text-lg font-semibold text-primary mb-3">
                 Do I have to pay upfront?
               </h3>
@@ -211,7 +211,7 @@ export default function UnemploymentAppealsPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <h3 className="text-lg font-semibold text-primary mb-3">
                 What if I can't afford an attorney?
               </h3>
@@ -221,7 +221,7 @@ export default function UnemploymentAppealsPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <h3 className="text-lg font-semibold text-primary mb-3">
                 How long does the process take?
               </h3>
@@ -232,7 +232,7 @@ export default function UnemploymentAppealsPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <h3 className="text-lg font-semibold text-primary mb-3">
                 Should I keep filing my weekly claims?
               </h3>
@@ -242,7 +242,7 @@ export default function UnemploymentAppealsPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <h3 className="text-lg font-semibold text-primary mb-3">
                 What if I lose my appeal?
               </h3>
