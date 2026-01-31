@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "16.1.6",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
+    "next": "15.1.9",
+    "react": "19.0.1",
+    "react-dom": "19.0.1",
     "@sanity/client": "6.24.1",
     "@sanity/image-url": "1.1.0",
     "next-sanity": "9.12.3",
