@@ -76,7 +76,7 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="absolute top-[72px] left-0 right-0 bg-white border-b border-gray-200 shadow-lg min-[900px]:hidden">
+          <div className="absolute top-[120px] left-0 right-0 bg-white border-b border-gray-200 shadow-lg min-[900px]:hidden">
             <nav className="flex flex-col p-4 gap-4">
               {navLinks.map((link) => (
                 <Link
