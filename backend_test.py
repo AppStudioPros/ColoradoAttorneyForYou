@@ -3,7 +3,7 @@ import sys
 from datetime import datetime
 
 class LawOfficeAPITester:
-    def __init__(self, base_url="https://site-recreation-27.preview.emergentagent.com"):
+    def __init__(self, base_url="https://legal-hub-44.preview.emergentagent.com"):
         self.base_url = base_url
         self.tests_run = 0
         self.tests_passed = 0
@@ -206,7 +206,7 @@ def main():
     print("="*60)
     print("🏛️  LAW OFFICE API TESTING")
     print("="*60)
-    print(f"Testing backend at: https://site-recreation-27.preview.emergentagent.com")
+    print(f"Testing backend at: https://legal-hub-44.preview.emergentagent.com")
     print(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
     tester = LawOfficeAPITester()
