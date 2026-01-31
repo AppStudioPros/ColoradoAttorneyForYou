@@ -82,7 +82,7 @@ export default function OtherAreasPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 min-[900px]:grid-cols-3 gap-6">
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <LawIcon name="handshake" size={40} className="mb-4" />
               <h3 className="text-xl font-semibold text-primary mb-3">Divorce & Legal Separation</h3>
               <p className="text-[0.95rem] text-muted">
@@ -91,7 +91,7 @@ export default function OtherAreasPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <LawIcon name="contract" size={40} className="mb-4" />
               <h3 className="text-xl font-semibold text-primary mb-3">Child Custody & Parenting Time</h3>
               <p className="text-[0.95rem] text-muted">
@@ -101,7 +101,7 @@ export default function OtherAreasPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <LawIcon name="balance" size={40} className="mb-4" />
               <h3 className="text-xl font-semibold text-primary mb-3">Child Support & Maintenance</h3>
               <p className="text-[0.95rem] text-muted">
@@ -111,7 +111,7 @@ export default function OtherAreasPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <LawIcon name="folder" size={40} className="mb-4" />
               <h3 className="text-xl font-semibold text-primary mb-3">Modifications & Enforcement</h3>
               <p className="text-[0.95rem] text-muted">
@@ -121,7 +121,7 @@ export default function OtherAreasPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <LawIcon name="courthouse" size={40} className="mb-4" />
               <h3 className="text-xl font-semibold text-primary mb-3">Relocation Cases</h3>
               <p className="text-[0.95rem] text-muted">
@@ -131,7 +131,7 @@ export default function OtherAreasPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <LawIcon name="gavel" size={40} className="mb-4" />
               <h3 className="text-xl font-semibold text-primary mb-3">Contempt & Compliance</h3>
               <p className="text-[0.95rem] text-muted">
@@ -160,7 +160,7 @@ export default function OtherAreasPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <LawIcon name="handcuffs" size={40} className="mb-4" />
               <h3 className="text-xl font-semibold text-primary mb-3">DUI / DWAI Defense</h3>
               <p className="text-[0.95rem] text-muted mb-3">
@@ -174,7 +174,7 @@ export default function OtherAreasPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <LawIcon name="evidence" size={40} className="mb-4" />
               <h3 className="text-xl font-semibold text-primary mb-3">Drug Charges</h3>
               <p className="text-[0.95rem] text-muted mb-3">
@@ -184,7 +184,7 @@ export default function OtherAreasPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <LawIcon name="gavel" size={40} className="mb-4" />
               <h3 className="text-xl font-semibold text-primary mb-3">Theft & Property Crimes</h3>
               <p className="text-[0.95rem] text-muted mb-3">
@@ -194,7 +194,7 @@ export default function OtherAreasPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <LawIcon name="courthouse" size={40} className="mb-4" />
               <h3 className="text-xl font-semibold text-primary mb-3">Domestic Violence Defense</h3>
               <p className="text-[0.95rem] text-muted mb-3">
@@ -224,7 +224,7 @@ export default function OtherAreasPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <h3 className="text-lg font-semibold text-primary mb-3">Direct Criminal Appeals</h3>
               <p className="text-[0.95rem] text-muted mb-3">
                 A direct appeal challenges errors that occurred during your trial, such as improper
@@ -237,7 +237,7 @@ export default function OtherAreasPage() {
               </p>
             </div>
 
-            <div className="rounded-card bg-white border border-gray-200 shadow-md p-6">
+            <div className="rounded-card bg-white border border-gray-200 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6">
               <h3 className="text-lg font-semibold text-primary mb-3">Post-Conviction Motions (Rule 35)</h3>
               <p className="text-[0.95rem] text-muted mb-3">
                 If you believe your trial attorney provided ineffective assistance, or if you entered
