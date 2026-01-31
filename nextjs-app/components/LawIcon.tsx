@@ -54,6 +54,9 @@ export default function LawIcon({ name, size = 32, className = '', animate = tru
     law: 'law.svg',
     lawyer: 'lawyer.svg',
     pillars: 'pillars.svg',
+    research: 'research.svg',
+    folder: 'folder.svg',
+    evidence: 'evidence.svg',
   }
 
   const iconFile = iconMap[name] || 'balance.svg'
