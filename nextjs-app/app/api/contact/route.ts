@@ -1,7 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+// Initialize Resend only if API key is available
+let resend: Resend | null = null
+if (process.env.RESEND_API_KEY && process.env.RESEND_API_KEY !== 're_placeholder_replace_with_your_key') {
+  resend = new Resend(process.env.RESEND_API_KEY)
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -16,8 +20,7 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // TODO: Replace with actual Resend integration when API key is available
-    // For now, just log the submission
+    // Log the submission
     console.log('Contact form submission:', {
       name,
       email,
@@ -28,24 +31,29 @@ export async function POST(request: NextRequest) {
       timestamp: new Date().toISOString(),
     })
 
-    // Uncomment when Resend API key is available:
-    /*
-    const data = await resend.emails.send({
-      from: 'Law Office <noreply@coloradoattorneyforyou.com>',
-      to: ['warren@coloradoattorneyforyou.com'],
-      subject: `New Contact Form Submission - ${practiceArea}`,
-      html: `
-        <h2>New Contact Form Submission</h2>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Phone:</strong> ${phone}</p>
-        <p><strong>Practice Area:</strong> ${practiceArea}</p>
-        <p><strong>Source Page:</strong> ${sourcePage}</p>
-        <p><strong>Message:</strong></p>
-        <p>${message}</p>
-      `,
-    })
-    */
+    // Send email via Resend if API key is configured
+    if (resend) {
+      try {
+        await resend.emails.send({
+          from: 'Law Office <noreply@coloradoattorneyforyou.com>',
+          to: ['warren@coloradoattorneyforyou.com'],
+          subject: `New Contact Form Submission - ${practiceArea}`,
+          html: `
+            <h2>New Contact Form Submission</h2>
+            <p><strong>Name:</strong> ${name}</p>
+            <p><strong>Email:</strong> ${email}</p>
+            <p><strong>Phone:</strong> ${phone}</p>
+            <p><strong>Practice Area:</strong> ${practiceArea}</p>
+            <p><strong>Source Page:</strong> ${sourcePage}</p>
+            <p><strong>Message:</strong></p>
+            <p>${message}</p>
+          `,
+        })
+      } catch (emailError) {
+        console.error('Failed to send email via Resend:', emailError)
+        // Don't fail the request if email fails
+      }
+    }
 
     return NextResponse.json({
       success: true,
