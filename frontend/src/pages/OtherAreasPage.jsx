@@ -83,7 +83,7 @@ const OtherAreasPage = () => {
         className="relative overflow-hidden bg-[#f5f8fb] pt-20 pb-16 md:pt-24 md:pb-20"
         data-testid="hero-section"
       >
-        <div className="absolute inset-x-0 top-0 h-[20vh] bg-[linear-gradient(180deg,rgba(19,38,59,1)_0%,rgba(30,58,92,0.92)_60%,rgba(245,248,251,0)_100%)]" />
+        <div className="absolute inset-x-0 top-0 h-[35vh] bg-[linear-gradient(180deg,rgba(19,38,59,1)_0%,rgba(25,48,75,0.85)_25%,rgba(30,58,92,0.65)_50%,rgba(200,215,230,0.25)_75%,rgba(245,248,251,0)_100%)]" />
 
         <div className="relative mx-auto w-full px-4 sm:px-6 lg:px-8 max-w-[1280px]">
           <div className="grid grid-cols-1 min-[900px]:grid-cols-[1.4fr_1fr] gap-8 md:gap-12 items-center">
