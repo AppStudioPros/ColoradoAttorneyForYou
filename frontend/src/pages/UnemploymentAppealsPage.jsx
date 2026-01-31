@@ -157,6 +157,13 @@ const UnemploymentAppealsPage = () => {
         <div className="absolute inset-x-0 top-0 h-[40vh] bg-[linear-gradient(180deg,rgba(19,38,59,0.75)_0%,rgba(30,58,92,0.55)_25%,rgba(30,58,92,0.35)_50%,rgba(245,248,251,0.15)_75%,rgba(245,248,251,0)_100%)]" />
 
         <div className="relative mx-auto w-full px-4 sm:px-6 lg:px-8 max-w-[1280px]">
+          {/* Site Title */}
+          <div className="text-center mb-8 animate-on-scroll" style={{ opacity: 0 }}>
+            <h2 className="text-xl md:text-2xl font-bold text-[#13263b] tracking-tight">
+              Law Office of Warren J. Domangue
+            </h2>
+          </div>
+
           <div className="grid grid-cols-1 min-[900px]:grid-cols-[1.4fr_1fr] gap-8 md:gap-12 items-center">
             <div className="animate-on-scroll" style={{ opacity: 0 }}>
               <div className="text-xs uppercase tracking-wider font-semibold text-[#1ea6a3] mb-3">

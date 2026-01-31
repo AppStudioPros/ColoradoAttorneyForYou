@@ -31,16 +31,8 @@ export const Header = () => {
           <img
             src="/warren-logo-white.png"
             alt="Law Office of Warren J. Domangue"
-            className="h-16 w-auto object-contain bg-[#13263b] rounded-lg p-2"
+            className="h-20 w-auto object-contain bg-[#13263b] rounded-lg p-2"
           />
-          <div className="hidden md:flex flex-col">
-            <span className="text-[#13263b] text-sm font-semibold leading-tight">
-              Law Office of
-            </span>
-            <span className="text-[#13263b] text-sm font-semibold leading-tight">
-              Warren J. Domangue
-            </span>
-          </div>
         </Link>
 
         {/* Desktop Navigation */}
