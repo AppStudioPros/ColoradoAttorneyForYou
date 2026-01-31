@@ -19,15 +19,15 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/70 border-b border-gray-200 shadow-sm">
-      <div className="mx-auto w-full px-4 sm:px-6 lg:px-8 max-w-[1280px] h-[72px] flex items-center justify-between">
+      <div className="mx-auto w-full px-4 sm:px-6 lg:px-8 max-w-[1280px] h-[120px] flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
             src="/warren-logo-color.png"
             alt="Domangue Law"
-            width={200}
-            height={60}
-            className="object-contain h-14 w-auto"
+            width={400}
+            height={120}
+            className="object-contain h-28 w-auto"
           />
         </Link>
 
