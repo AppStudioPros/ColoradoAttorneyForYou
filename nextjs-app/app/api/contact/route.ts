@@ -35,7 +35,7 @@ export async function POST(request: NextRequest) {
     if (resend) {
       try {
         await resend.emails.send({
-          from: 'Domangue Law <onboarding@resend.dev>',
+          from: 'Domangue Law <website@mail.coloradoattorneyforyou.com>',
           to: ['warren.domangue@du.edu'],
           replyTo: email,
           subject: `New Contact Form Submission - ${practiceArea}`,
